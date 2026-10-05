@@ -1,0 +1,12 @@
+{
+  "name": "nowaste-canteen",
+  "version": "1.0.0",
+  "description": "NoWaste Canteen - Campus Surplus Food Rescue & UN SDG 12 Platform",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "node backend/server.js",
+    "client": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "test:demo": "node backend/test-demo-scenario.js"
+  }
+}
